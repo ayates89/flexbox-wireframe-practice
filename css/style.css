@@ -54,7 +54,6 @@ aside {
 }
 
 
-
 footer {
     background-color: #d46525;
     color: white;
@@ -64,4 +63,16 @@ footer {
     padding-right: 3em;
     border-radius: 1em;
 
+}
+
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;  
+      }
+
+      div {
+        flex-grow: 3;
+      }
 }
